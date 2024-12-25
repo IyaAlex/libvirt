@@ -1,0 +1,30 @@
+start_dom_libvirt:
+  description: Start a libvirt domain
+  fields:
+    url:
+      description: Libvirt URL
+      example: "qemu+ssh://hass@[ip]/system"
+    name:
+      description: Name of the domain
+      example: "xxxxxxxxx"
+
+stop_dom_libvirt:
+  description: Stop a libvirt domain
+  fields:
+    url:
+      description: Libvirt URL
+      example: "qemu+ssh://hass@[ip]/system"
+    name:
+      description: Name of the domain
+      example: "xxxxxxxxx"
+
+running_dom_libvirt:
+  description: Start a libvirt domain
+  fields:
+    url:
+      description: Libvirt URL
+      example: "qemu+ssh://hass@[ip]/system"
+    name:
+      description: Name of the domain
+      example: "xxxxxxxxx"
+

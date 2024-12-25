@@ -1,0 +1,9 @@
+{
+    "domain": "libvirt",
+    "name": "Libvirt",
+    "config_flow": false,
+    "documentation": "https://www.iyadev.fr/home-assistant/libvirt",
+    "requirements": ["libvirt-python==9.7.0"],
+    "codeowners": [],
+    "version": "0.0.2"
+}
